@@ -15,6 +15,10 @@ Web 引用的安全管理，主要包括两个方面的内容：一方面是用�
 ```
 
 ## 5.2 安全策略配置
+关于系统的安全管理及各种设计，Spring Security 已经大体上都实现了，只需要  
+进行一些配置和引用，就能够正常使用。  
+详细配置见 SecurityConfiguration 类 void configure(HttpSecurity http) 方法
+
 ### 5.2.1 权限管理规则
 SecuritySettings 类是自定义的一个配置类  
 logoutsuccssurl：用来定义退出成功的链接  
