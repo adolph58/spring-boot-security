@@ -12,6 +12,7 @@ import java.io.IOException;
 
 /**
  * 权限管理过滤器
+ * 实时监控用户的的行为，防止用户访问未被授权的资源
  */
 public class CustomFilterSecurityInterceptor extends AbstractSecurityInterceptor implements Filter {
     private static final Logger logger = Logger.getLogger(CustomFilterSecurityInterceptor.class);

@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 import java.util.regex.Pattern;
 
+/**
+ * 排除 CSRF 保护策略
+ */
 public class CsrfSecurityRequestMatcher implements RequestMatcher {
     protected Log log = LogFactory.getLog(getClass());
     private Pattern allowedMethods = Pattern

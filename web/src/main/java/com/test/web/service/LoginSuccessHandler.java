@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * 登录成功处理器
+ * 登录成功处理器，如果需要对用户的行为进行记录或者执行其他操作，可以使用登录成功处理器
  */
 public class LoginSuccessHandler extends SavedRequestAwareAuthenticationSuccessHandler {
     protected Log log = LogFactory.getLog(getClass());
